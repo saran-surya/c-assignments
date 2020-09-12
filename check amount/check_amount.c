@@ -6,10 +6,5 @@ void main(){
     scanf("%d", &available);
     printf("Please enter the required amount : ");
     scanf("%d", &withdraw);
-    if (withdraw <= available){
-        printf("The amount of Rs : %d can be withdrawed", withdraw);
-    } else {
-        printf("Sorry we cannot withdraw the amount,the available balance is %d", available);
-    }
-    
+    withdraw <= available ? printf("The amount of Rs : %d can be withdrawed", withdraw) : printf("Sorry we cannot withdraw the amount,the available balance is %d", available);
 }
