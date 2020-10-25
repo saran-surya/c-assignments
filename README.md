@@ -13,3 +13,9 @@
      passport numbers. Your task is to delete all the duplicate passport numbers. You are
      given a list of passport numbers.
       - [Redundent Numbers](https://github.com/saran-surya/c-assignments/tree/master/redundent%20numbers/redundent.c)
+
+# ---------------------------------------------------------------------------------------------------
+
+# Singly Linked list insertion and deletion
+   - I have covered the concept of insertion and deletion here:
+   - [Singly Linked List](https://github.com/saran-surya/c-assignments/tree/master/linkedlist/linkedlist.c)
