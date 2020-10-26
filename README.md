@@ -16,6 +16,10 @@
 
 # ---------------------------------------------------------------------------------------------------
 
-# Singly Linked list insertion and deletion
+# Singly Linked list creation/insertion/deletion
    - I have covered the concept of insertion and deletion here:
    - [Singly Linked List](https://github.com/saran-surya/c-assignments/tree/master/linkedlist/singly_linkedlist.c)
+
+# Doubly Linked list creation/insertion/deletion
+   - I have covered the concept of insertion and deletion here:
+   - [Singly Linked List](https://github.com/saran-surya/c-assignments/tree/master/linkedlist/doubly_linkedlist.c)
