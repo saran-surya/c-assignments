@@ -18,4 +18,4 @@
 
 # Singly Linked list insertion and deletion
    - I have covered the concept of insertion and deletion here:
-   - [Singly Linked List](https://github.com/saran-surya/c-assignments/tree/master/linkedlist/linkedlist.c)
+   - [Singly Linked List](https://github.com/saran-surya/c-assignments/tree/master/linkedlist/singly_linkedlist.c)
