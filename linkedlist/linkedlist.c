@@ -122,6 +122,38 @@ void insertNodeAtMiddle(){
     }else printf("Memory cannot be allocated");
 }
 
+void deleteLastNode(){
+    struct node *temp, *nextptr;
+    temp = stnode;
+    nextptr = stnode->next;
+    while (nextptr->next != NULL){
+        temp = nextptr;
+        nextptr = nextptr->next;
+    }
+    temp->next = NULL;
+}
+
+void deleteFirstNode(){
+    stnode = stnode->next;
+}
+
+void deleteAtPosition(){
+    int pos, i;
+    struct node *temp, *nextptr;
+    printf("Please enter the position of the node to be deleted : ");
+    scanf("%d", &pos);
+    temp = stnode;
+    nextptr = stnode->next;
+    if (pos-1 == 0)deleteFirstNode();
+    else{
+        for(i=1; i<pos-1; i++){
+            temp = nextptr;
+            nextptr = nextptr->next;
+        }
+        temp->next = nextptr->next;
+    }
+}
+
 int main(){
     int n;
     printf("Please enter the total elements in a linked list : ");
@@ -131,8 +163,15 @@ int main(){
     // insertAtBeginning();
     // to insert a node at ending uncomment the line below
     // insertNodeAtEnd();
-    insertNodeAtMiddle();
-
+    // to insert a node at positions uncomment the line below
+    // insertNodeAtMiddle();
+    // ------------------------------------------
+    // deleting the last node
+    // deleteLastNode();
+    // deleting the first node
+    // deleteFirstNode();
+    // deleting a node in the middle
+    deleteAtPosition();
 
     displaylist();
 }
